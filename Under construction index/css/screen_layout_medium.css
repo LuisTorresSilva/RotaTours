@@ -1,0 +1,79 @@
+body{
+background-color: #f7f7f7;
+}
+
+/*Set fonts*/
+
+@font-face{
+    font-family: DamionHandFont;
+    src: url(../fonts/Damion-Regular.ttf);
+}
+
+@font-face{
+    font-family: OswaldFont;
+    src: url(../fonts/Oswald-Regular.ttf);
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: OswaldFont;
+}
+
+/*END: Set fonts*/
+
+/*Under construction*/
+
+.logoUnderConstructon{   
+    width: 500px;
+    height: 510px;
+    margin: 0 auto;
+    padding-top: 5%;  
+}
+
+.imageLogo1{
+    width: 496px;
+    height: 311px;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+
+.imageLogo2{
+    width: 438px;
+    height: 53px;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+
+.imageLogo3{
+    width: 253px;
+    height: 52px;
+    /*margin: 0 auto;*/
+    padding-top: 3%;
+}
+
+/*Animation logo*/
+
+img.logo1{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    /*-webkit-animation-iteration-count: infinite;*/
+    -webkit-animation-iteration-count: 1;
+}
+
+img.logo2{
+    width: 438px;
+    height: 53px;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2s;
+    /*-webkit-animation-iteration-count: infinite;*/
+    -webkit-animation-iteration-count: 1;
+}
+
+img.logo3{
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2.5s;
+    /*-webkit-animation-iteration-count: infinite;*/
+    -webkit-animation-iteration-count: 1;
+}
+
+/*END: Under construction*/
+
